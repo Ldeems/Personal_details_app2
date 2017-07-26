@@ -1,0 +1,21 @@
+well
+<%=first_name%>
+<%=last_name%>
+what is your favorite drink?
+
+<form method= "post" action= "fav_drink">
+	<input type="text" name = "fav_drink">
+	<input type="submit" value = "enter">
+	<input type="hidden" name="first_name"
+	value = "<%=first_name%>">
+	<input type="hidden" name="last_name"
+	value = "<%=last_name%>">
+	<input type="hidden" name="hair_color"
+	value = "<%=hair_color%>">
+	<input type="hidden" name="eye_color"
+	value = "<%=eye_color%>">
+	<input type="hidden" name="your_age"
+	value = "<%=your_age%>">
+	<input type="hidden" name="fav_food"
+	value = "<%=fav_food%>">
+</form>

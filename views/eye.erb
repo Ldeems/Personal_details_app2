@@ -1,0 +1,17 @@
+so
+<%=first_name%>
+<%=last_name%>
+if your hair color is 
+<%=hair_color%>
+what is you eye color?
+
+<form method= "post" action= "eye_color">
+	<input type="text" name = "eye_color">
+	<input type="submit" value = "enter">
+	<input type="hidden" name="first_name"
+	value = "<%=first_name%>">
+	<input type="hidden" name="last_name"
+	value = "<%=last_name%>">
+	<input put type="hidden" name="hair_color"
+	value = "<%=hair_color%>">
+</form>

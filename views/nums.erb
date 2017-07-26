@@ -1,0 +1,25 @@
+well
+<%=first_name%>
+<%=last_name%>
+what are your 3 favorite numbers?
+
+<form method= "post" action= "fav_nums">
+	<input type="text" name = "num1">
+	<input type="text" name = "num2">
+	<input type="text" name = "num3">
+	<input type="submit" value = "enter">
+	<input type="hidden" name="first_name"
+	value = "<%=first_name%>">
+	<input type="hidden" name="last_name"
+	value = "<%=last_name%>">
+	<input type="hidden" name="hair_color"
+	value = "<%=hair_color%>">
+	<input type="hidden" name="eye_color"
+	value = "<%=eye_color%>">
+	<input type="hidden" name="your_age"
+	value = "<%=your_age%>">
+	<input type="hidden" name="fav_food"
+	value = "<%=fav_food%>">
+	<input type="hidden" name="fav_drink"
+	value = "<%=fav_drink%>">
+</form>
